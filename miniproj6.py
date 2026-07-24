@@ -8,7 +8,7 @@ while chance <= 3:
         print("Login successful")
         break
     else:
-        print("login faild")
+        print("login faild. You have", 3-chance, "chance left")
     chance= chance+1
 if chance == 4:
     print("Account Locked")
